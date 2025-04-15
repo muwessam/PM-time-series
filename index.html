@@ -111,11 +111,19 @@
             <small>Value must be between 0 and 5000</small>
 
             <label for="egt_probe_average">EGT Probe Average:</label>
+<<<<<<< Updated upstream
             <input type="number" id="egt_probe_average" name="egt_probe_average" placeholder="777.5" min="585" max="970" step="0.01" >
             <small>Value must be between 585 and 970</small>
 
             <label for="fuel_flw">Fuel Flow:</label>
             <input type="number" id="fuel_flw" name="fuel_flw" placeholder="3396" min="1105" max="5687" step="0.01" >
+=======
+            <input type="number" id="egt_probe_average" name="egt_probe_average" placeholder="e.g., 650" min="585" max="970" >
+            <small>Value must be between 585 and 970</small>
+
+            <label for="fuel_flw">Fuel Flow:</label>
+            <input type="number" id="fuel_flw" name="fuel_flw" placeholder="e.g., 3000" min="1105" max="5687" >
+>>>>>>> Stashed changes
             <small>Value must be between 1105 and 5687</small>
 
             <label for="core_spd">Core Speed:</label>
@@ -123,6 +131,7 @@
             <small>Value must be between 91 and 109</small>
 
             <label for="zpn12p">ZPN12P:</label>
+<<<<<<< Updated upstream
             <input type="number" id="zpn12p" name="zpn12p" placeholder="71.5" min="52" max="91" step="0.01" >
             <small>Value must be between 52 and 91</small>
 
@@ -136,6 +145,21 @@
 
             <label for="vib_n2_turbine_frame">Vibration N2 Turbine Frame:</label>
             <input type="number" id="vib_n2_turbine_frame" name="vib_n2_turbine_frame" placeholder="1" min="0" max="2" step="0.01" >
+=======
+            <input type="number" id="zpn12p" name="zpn12p" placeholder="e.g., 60" min="52" max="91" >
+            <small>Value must be between 52 and 91</small>
+
+            <label for="vib_n1_1_bearing">Vibration N1 #1 Bearing:</label>
+            <input type="number" step="any"  id="vib_n1_1_bearing" name="vib_n1_1_bearing" placeholder="e.g., 0.02" min="0" max="0.4" >
+            <small>Value must be between 0 and 0.4</small>
+
+            <label for="vib_n2_1_bearing">Vibration N2 #1 Bearing:</label>
+            <input type="number" step="any" id="vib_n2_1_bearing" name="vib_n2_1_bearing" placeholder="e.g., 0.3" min="0" max="1" >
+            <small>Value must be between 0 and 1.25</small>
+
+            <label for="vib_n2_turbine_frame">Vibration N2 Turbine Frame:</label>
+            <input type="number"  step="any" id="vib_n2_turbine_frame" name="vib_n2_turbine_frame" 	placeholder="e.g., 0.4" min="0" max="2" >
+>>>>>>> Stashed changes
             <small>Value must be between 0 and 2</small>
 
             <label for="flight_phase">Flight Phase:</label>
