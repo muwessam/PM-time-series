@@ -248,7 +248,7 @@
    		 document.getElementById('result').textContent = `Predicted RUL: ${Math.round(prediction)}`;
     		document.getElementById('healthBar').style.width = `${healthPercentage}%`;
     
-   		if (prediction > 2500) {
+   		if (prediction > 3000) {
         		healthBar.style.backgroundColor = 'green'; // Healthy
     		} else if (prediction >= 1500 && prediction <= 3000) {
         		healthBar.style.backgroundColor = 'orange'; // Warning
